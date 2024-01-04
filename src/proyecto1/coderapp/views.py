@@ -18,3 +18,6 @@ def leer_alumnos(request):
         "cursos": ["Alemán", "Japonés", "Doctorado Bioq."]
     }
     return render(request, 'plantilla.html', contexto)
+
+def index(request):
+    return render(request, 'index.html')
