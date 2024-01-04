@@ -21,3 +21,15 @@ def leer_alumnos(request):
 
 def index(request):
     return render(request, 'index.html')
+
+def profesores(request):
+    return HttpResponse('Vista profesor')
+
+def estudiantes(request):
+    return HttpResponse('Vista estudiante')
+
+def cursos(request):
+    return HttpResponse("Vista curso")
+
+def entregables(request):
+    return HttpResponse("Vista entregable")
