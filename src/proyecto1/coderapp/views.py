@@ -23,13 +23,13 @@ def index(request):
     return render(request, 'index.html')
 
 def profesores(request):
-    return HttpResponse('Vista profesor')
+    return render(request, 'profesores.html')
 
 def estudiantes(request):
-    return HttpResponse('Vista estudiante')
+    return render(request, 'estudiantes.html')
 
 def cursos(request):
-    return HttpResponse("Vista curso")
+    return render(request, 'cursos.html')
 
 def entregables(request):
-    return HttpResponse("Vista entregable")
+    return render(request, 'entregables.html')
